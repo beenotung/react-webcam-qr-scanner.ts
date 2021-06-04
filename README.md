@@ -56,10 +56,11 @@ export type VideoQrScannerProps = {
 }
 export function VideoQrScanner(props: VideoQrScannerProps): JSX.Element
 
-export type QrScannerProps = Omit<CameraProps, 'onVideo'> &
-  Pick<VideoQrScannerProps, 'onQrCode'>
 export function ContinuousQrScanner(props: QrScannerProps): JSX.Element
 export function OneOffQrScanner(props: QrScannerProps): JSX.Element
+
+export type QrScannerProps = Omit<CameraProps, 'onVideo'> &
+  Pick<VideoQrScannerProps, 'onQrCode'>
 
 export default OneOffQrScanner
 ```
@@ -97,8 +98,6 @@ Details refer to [DemoOneOffScanning.tsx](src/DemoOneOffScanning.tsx)
 
 ### Demo Continuous Scanning
 
-[DemoContinuousScanning.tsx](src/DemoContinuousScanning.tsx):
-
 ```typescript jsx
 import React, { useState } from 'react'
 import { ContinuousQrScanner } from 'react-webcam-qr-scanner.ts'
@@ -119,9 +118,9 @@ function DemoContinuousScanning() {
 export default DemoContinuousScanning
 ```
 
-### Demo Scanning with Custom Video Filter
+Details refer to [DemoContinuousScanning.tsx](src/DemoContinuousScanning.tsx):
 
-[DemoCustomVideoFilter.tsx](src/DemoCustomVideoFilter.tsx):
+### Demo Scanning with Custom Video Filter
 
 ```typescript jsx
 import React, { useEffect, useState } from 'react'
@@ -157,6 +156,8 @@ function DemoCustomVideoFilter() {
 
 export default DemoCustomVideoFilter
 ```
+
+Details refer to [DemoCustomVideoFilter.tsx](src/DemoCustomVideoFilter.tsx):
 
 ## License
 
