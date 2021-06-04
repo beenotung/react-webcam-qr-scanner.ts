@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "Typescript React components using pure javascript to detect QR Code from webcam continuously.",
   "keywords": [
-    "proxy",
-    "use-state",
     "react",
-    "state",
-    "dispatch"
+    "qr scanner",
+    "webcam",
+    "typescript"
   ],
   "author": {
     "name": "Beeno Tung",
