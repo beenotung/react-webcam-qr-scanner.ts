@@ -1,6 +1,6 @@
 {
   "name": "react-webcam-qr-scanner.ts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Typescript React components using pure javascript to detect QR Code from webcam continuously.",
   "keywords": [
     "react",
