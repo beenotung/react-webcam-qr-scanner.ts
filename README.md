@@ -36,6 +36,7 @@ You can obtain these files from `node_modules/qr-scanner/`
 ```bash
 cd public
 ln -s
+ln -s ../node_modules/qr-scanner/qr-scanner-worker.min.js
 ln -s ../node_modules/qr-scanner/qr-scanner-worker.min.js.map
 ```
 
